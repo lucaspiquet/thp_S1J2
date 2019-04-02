@@ -13,6 +13,7 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 span[class*="element"]
@@ -33,6 +34,7 @@ span[class="element2"]
 font-weight: bold;
 color: #FFFFFF;
 background-color: #4584ed;
+border-radius: 5px;
 }
 
 img[class*="apps"]
@@ -42,8 +44,42 @@ width: 30px;
 padding: 15px;
 }
 
-
-.element1
+section
 {
-
+justify-content: space-around;
 }
+
+
+.google
+{
+padding: 109px 0px 0px 0px;
+width: 272px;
+height: 92px;
+}
+
+.search
+{
+width: 582px;
+height: 44px;
+border: 1px #eaebee solid;
+border-radius: 50px;
+display: flex;
+flex-direction: row;
+}
+
+input
+{
+text-decoration: none;
+width: 514px;
+height: 34px;
+align-content: flex-start;
+align-items: center;
+}
+
+.saisie-vocale
+{
+width: 24px;
+height: 24px;
+}
+
+
