@@ -74,12 +74,58 @@ width: 514px;
 height: 34px;
 align-content: flex-start;
 align-items: center;
+outline: none;
 }
 
 .saisie-vocale
 {
-width: 24px;
-height: 24px;
+width: 40px;
+height: 40px;
+}
+
+#espace-sous-search
+{
+margin: 18px 0px 0px 0px;
+}
+
+#boutons
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+span[class="element-bouton"]
+{
+font-family: arial, sans-serif;
+color: #5e666d;
+background-color: #f3f3f3;
+border-radius: 5px;
+margin: 11px 4px;
 }
 
 
+footer 
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:30px;
+  padding-bottom: 30px;
+}
+
+.element-footer
+{
+font-family: arial, sans-serif;
+color: #5e666d;
+background-color: #f3f3f3;
+border-radius: 5px;
+margin: 11px 4px;
+}
