@@ -1,0 +1,5 @@
+ul /* enlever les puces de la liste à puces */
+{
+list-style: none;
+flex-direction: row;
+}
